@@ -1,0 +1,23 @@
+*{box-sizing: border-box;}
+/*NAV*/
+.navbar-brand{font-size: 15px;}
+.searchli{width: 40%;}
+.collapse input[type=search]{width: 40%; transition:width 0.3s;}
+.collapse input[type=search]:focus{width: 90%;}
+
+/*User & Categories*/
+#user div{padding:10px; }
+#user{margin: 40px auto; font-family: poiret one; border: 1px solid rgba(0, 0, 0, 0.2);}
+#user .name{font-size: 2em;}
+#user i{color: rgba(0, 0, 0, 0.5); font-size: 1.5em; margin-right: 5px; padding: 5px; transition: 0.3s;}
+#user i:hover{color: rgb(255, 255, 255); background: rgb(0, 0, 0); border-radius: 5px}
+.bio{min-height: 20vh}
+.social div{width: 50px; display: inline-block; }
+.social, .bio, .email{font-size: 1.2em}
+#categories{font-size: 1.5em; margin: 40px auto; font-family: poiret one;}
+#categories .one , .two, .three{margin-bottom: 30px}
+#categories .post{width: 90px; height: 90px; border: 1px solid rgba(0,0,0,0.3); display: inline-block; border-radius: 10px;}
+#categories p.col-6{margin-bottom: 0;}
+#categories i{color: rgba(0, 0, 0, 0.5); transition: 0.3s;}
+#categories i:hover{color: rgb(255, 255, 255); background: rgb(0, 0, 0); padding: 5px; border-radius: 5px}
+

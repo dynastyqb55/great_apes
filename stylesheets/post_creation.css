@@ -1,0 +1,32 @@
+*{box-sizing:border-box;}
+/*NAV*/
+.navbar-brand{font-size:15px;}
+.searchli{width:40%;}
+.collapse input[type=search]{width: 40%; transition:width 0.3s;}
+.collapse input[type=search]:focus{width: 90%;}
+
+/*Main*/ 
+.main{position: relative; background: rgb(239,239,239); padding:20px 30px;} 
+.back{float: left; padding:5px 10px; border: 2px solid rgb(239,239,239); border-radius:50px; transition:border 0.3s;}
+.back:hover{background: #FFFFFF; border: 2px solid #000000; border-radius:50px;}
+.content-block{border-radius: 7px; background: rgb(255, 255, 255); width: 65%; padding:20px 50px; margin: 20px auto; position: relative;} 
+.main button{float: right; color: white; font-size: 1.2em; background-color: rgb(240,0,35); padding: 10px 15px; border: 1px solid rgb(230,0,35); border-radius: 5px; font-family: roboto; transition: background-color 0.2s; } 
+.main button:hover{background-color: rgb(200,0,35)}
+.main button i{margin:0 0 0 10px;}
+.main2{clear: both; padding-top: 20px} 
+.photo{border-radius: 7px; padding: 20px; background: rgb(239,239,239); text-align: center; font-size: 1.5em; display: flex; align-items: center; justify-content: center;}
+
+/*FORM*/
+div.photo , div.content{margin:0 auto; padding:0 30px;}
+input[type=text]{width: 100%; border:1px solid #FFFFFF; font-family: comfortaa; } 
+.content table td{padding: 0 5px;}
+input[type=number]{width: 100%; border:1px solid #FFFFFF; font-family: comfortaa;} 
+input[type=text].title{width: 100%; border:1px solid #FFFFFF; font-size: 2.5em; font-family: comfortaa; font-weight: 700 } 
+input[type=text].title:focus{outline: none;}
+.info img{width: 80%; min-width: 50px ; height: auto}
+.info{padding: 5px 0}
+.info div{padding:10px}
+.info p{padding: 0; margin-bottom: 0; line-height:1;}
+.info p:nth-child(1){padding-top: 5px;}
+textarea{border:0; width: 100%}
+textarea:focus{outline:none;}
