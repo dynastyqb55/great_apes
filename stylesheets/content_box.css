@@ -1,8 +1,11 @@
 *{box-sizing: border-box;}
 body{width: 100%}
+.back{margin: 20px 20px;}
+.back span:hover{background: rgb(0,0,0); color: white; border:2px solid white;}
+.back span{transition: 0.3s; padding: 7px; font-family: montserrat; border: 2px solid rgb(0,0,0); margin: 20px 20px; border-radius: 17px }
 #post{width: 90%; margin: 0 auto; padding: 40px; font-family: montserrat alternates }
 .image{position: relative}
-.image img{width: auto; height: 50vh; margin-right:0;}
+.image img{width: 80%; height: auto; margin-left:0;}
 .intro div{margin: auto; font-size: 2vw; width: 100%; font-family: montserrat alternates}
 .intro .col-5{margin-top:0; padding: 0}
 #content{width: 100%; padding: 60px; margin: 0 auto;}
