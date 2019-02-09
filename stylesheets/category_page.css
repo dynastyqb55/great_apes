@@ -65,7 +65,7 @@ hr:before { /* Not really supposed to work, but does */
     li.nav-item:nth-child(1) button{margin:0 5px;}
     .collapse input[type=search]{width: 75%; transition:width 0.3s;}
     #collection{font-family: montserrat; width: 90%; margin: 0 auto}
-    .grid-item {box-shadow: 0 1px 5px rgba(0,0,0,0.3); border-radius: 10px; overflow: hidden; margin: 20px 2%; border: 1px solid rgba(0,0,0,0.3); display: inline-block; padding: 0px; width: 46%; float: right;}        
+    .grid-item {box-shadow: 0 1px 5px rgba(0,0,0,0.3); border-radius: 10px; overflow: hidden; margin: 15px 2%; border: 1px solid rgba(0,0,0,0.3); display: inline-block; padding: 0px; width: 46%; float: right;}        
 }
 .grid-item img{width: 100%; height: auto; max-height: 400px; transition: 0.2s;}
 .grid-item .image{overflow: hidden}
