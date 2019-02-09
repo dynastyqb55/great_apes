@@ -23,7 +23,7 @@ nav{border-bottom: 2px solid rgb(135,3,177)}
 .back div.one{width: 50%; font-size: 1.2em; font-family: montserrat; margin: 20px 20px;}
 .back div.one span{padding: 7px; transition: 0.3s; border: 2px solid rgb(0,0,0); border-radius: 17px }
 .back div.two{text-align: right; width: 50%; margin: 20px 20px; padding: 7px;}
-.back div.two i{color: rgba(0,0,0,0.7); font-size: 2em; margin: 0 15px;}
+.back div.two i{color: rgba(0,0,0,0.7); font-size: 2em; margin: 0 8px;}
 @media screen and ( min-width:992px ){
 	.collapse input[type=search]{width: 50%; transition:width 0.3s;}
 	.collapse input[type=search]:focus{width: 85%;}
